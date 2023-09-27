@@ -8,7 +8,7 @@ const SearchBar = () => {
 				<input
 					type="text"
 					placeholder="Search"
-					className=" h-full rounded-tl-[2rem] rounded-bl-[2rem] flex items-center p-6 text-[1.3rem]     w-[598px]"
+					className=" hidden md:hidden h-full rounded-tl-[2rem] rounded-bl-[2rem] lg:flex items-center p-6 text-[1.3rem]     w-[598px]"
 				/>
 			</span>
 			<span className=" h-full flex items-center justify-center w-20 rounded-tr-[2rem]  rounded-br-[2rem] border-[0.01px] border-gray-300 bg-slate-100">

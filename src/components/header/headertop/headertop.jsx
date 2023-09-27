@@ -8,7 +8,7 @@ const HeaderTop = () => {
 	};
 	return (
 		<div className=" fixed w-full h-16 flex items-center justify-between bg-gray-400 px-8">
-			<div className="w-[17%] flex justify-between items-center">
+			<div className="w-[10rem] flex justify-between items-center md:w-[15rem] lg:w-[20rem]">
 				<span onClick={toggleShow}>
 					<img src={hamburger} alt="hamburger" className=" w-6 h-4" />
 				</span>
@@ -16,7 +16,7 @@ const HeaderTop = () => {
 					<span className="">
 						<img src={youtube} className="w-8  h-8" alt="youtube logo" />
 					</span>
-					<span className=" tracking-tighter font-sans font-medium text-[2rem]">
+					<span className=" flex tracking-tighter font-sans font-medium text-[1.2rem] md:text-[1.6rem] lg:text-[2rem]">
 						Youtube <sup className=" font-light">NG</sup>
 					</span>
 				</span>
